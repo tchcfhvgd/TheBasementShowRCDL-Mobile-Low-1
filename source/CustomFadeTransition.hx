@@ -36,7 +36,7 @@ class CustomFadeTransition extends MusicBeatSubstate
 		var width:Int = Std.int(FlxG.width);
 		var height:Int = Std.int(FlxG.height);
 
-		transitionSprite = new FlxSprite(width + -1845, height + -1610);
+		transitionSprite = new FlxSprite(width + -923, height + -805);
 		transitionSprite.frames = Paths.getSparrowAtlas('kevin_normal', 'preload');
 		transitionSprite.animation.addByPrefix('transition', 'kevin_normal', 34, false);
 		transitionSprite.scrollFactor.set(0, 0);
