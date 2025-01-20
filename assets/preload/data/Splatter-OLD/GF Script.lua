@@ -53,8 +53,8 @@ singAnimations = {
 }
 
 characterPos = {
-    720, -- X of character
-    220 -- Y of character
+    950, -- X of character
+    400 -- Y of character
 }
 
 characterCamera = {
@@ -63,8 +63,8 @@ characterCamera = {
 }
 
 characterScales = {
-    1, -- Scale X of character
-    1 -- Scale Y of character
+    2, -- Scale X of character
+    2 -- Scale Y of character
 }
 
 local noteFileCreation = false -- Creates note files incase note files for the character doesn't exist. (Enable if you don't know how to literally create files!)
