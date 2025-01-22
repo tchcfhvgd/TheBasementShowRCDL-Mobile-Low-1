@@ -1,7 +1,7 @@
 package hxvlc.flixel;
 
 #if flixel
-import flixel.util.FlxAxes;
+import flixel.util.FlxAxes2;
 import flixel.FlxG;
 import haxe.io.Bytes;
 import hxvlc.externs.Types;
