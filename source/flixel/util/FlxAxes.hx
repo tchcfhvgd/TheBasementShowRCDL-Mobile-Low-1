@@ -1,6 +1,6 @@
 package flixel.util;
 
-enum abstract FlxAxes2(Int)
+enum abstract FlxAxes(Int)
 {
 	var X    = 0x01;
 	var Y    = 0x10;
@@ -20,9 +20,9 @@ enum abstract FlxAxes2(Int)
 	/**
 	 * Internal helper to reference self
 	 */
-	var self(get, never):FlxAxes2;
+	var self(get, never):FlxAxes;
 	
-	inline function get_self():FlxAxes2
+	inline function get_self():FlxAxes
 	{
 		return cast this;
 	}
@@ -48,12 +48,12 @@ enum abstract FlxAxes2(Int)
 		}
 	}
 	
-	public static function fromBools(x:Bool, y:Bool):FlxAxes2
+	public static function fromBools(x:Bool, y:Bool):FlxAxes
 	{
 		return cast (x ? (cast X:Int) : 0) | (y ? (cast Y:Int) : 0);
 	}
 	
-	public static function fromString(axes:String):FlxAxes2
+	public static function fromString(axes:String):FlxAxes
 	{
 		return switch axes.toLowerCase()
 		{
